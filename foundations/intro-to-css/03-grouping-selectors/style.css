@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+/* 
+They share font list and size. Differ in background color and text color.
+*/
+
+.button {
+  font-size: 28px;
+  font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.button.click {
+  color: white;
+  background-color: black;
+}
+
+.button.no-click {
+  background-color: yellow;
+}
